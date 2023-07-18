@@ -1,24 +1,15 @@
 #include "main.h"
 /**
-*print_sign-prints sign of a number
-*@n: character to be verified
-*Return: return 0 or 1
+* _abs - prints the absolute value of a number
+*@i: number targeted
+*Return: returns 0
 */
-int print_sign(int n)
+int _abs(int i)
 {
-if (n == 0)
-{
-_putchar('0');
-return (0);
-}
-else if (n > 0)
-{
-_putchar('+');
-return (1);
-}
+if (i > 0)
+return (i);
+else if (i < 0)
+return (-i);
 else
-{
-_putchar('-');
-return (-1);
-}
+return (0);
 }
