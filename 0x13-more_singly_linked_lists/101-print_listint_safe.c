@@ -4,7 +4,7 @@
  * print_listint_safe - print a loop in SLL
  *
  * @head: pointer to the 1st node of the linked list
- * 
+ *
  * Return: new_node
  */
 size_t print_listint_safe(const listint_t *head)
